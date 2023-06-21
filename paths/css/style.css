@@ -37,8 +37,6 @@ body {
     margin:0;
 }
 
-
-
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -87,29 +85,29 @@ section {
 .home {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    gap: 2rem;
+    text-align: center;
 }
 
 .home-content h1 { 
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
+    text-align: center;
 }
 
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+    text-align: center;
+
 }
 
-.home-content h3:nth-of-type(1) {
-    margin-bottom: 2rem;
-}
-
-.home-img,
-.home-img:nth-of-type(1) {
+.home-img {
     /*Change depending on picture size*/
+    align-items: center;
     width: 100vw;
-    margin-left: 6rem;
 }
 
 .social-media a {
