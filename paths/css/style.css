@@ -34,7 +34,7 @@ html {
 body {
     color:var(--text-color);
     background: linear-gradient(to right, #141e30, #243b55);
-    background-image: url('/workspaces/Desire-Website/paths/images/Desire_home6.png');
+    background-image: url('Desire_home6.png');
     /* background-size: cover; */
     height: 100vh;
     padding:0;
