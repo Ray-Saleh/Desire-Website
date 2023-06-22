@@ -32,13 +32,9 @@ html {
 }
 
 body {
-    color:var(--text-color);
-    background: linear-gradient(to right, #141e30, #243b55);
-    background-image: url('Desire_home6.png');
-    /* background-size: cover; */
-    height: 100vh;
-    padding:0;
-    margin:0;
+    background-image: url('Desire_home6.jpeg');
+    background-size:cover;
+
 }
 
 section {
@@ -60,12 +56,16 @@ section {
 
 }
 
+
+
 .logo {
     font-size: 2.5rem;
     color: black;
     font-weight: 600;
     cursor: default;
 }
+
+
 
 .navbar a {
     font-size: 1.7rem;
@@ -82,7 +82,7 @@ section {
 #menu-icon {
     font-size: 3.6rem;
     color: var(--text-color);
-    display: none;
+    display:none;
 }
 
 
@@ -94,6 +94,7 @@ section {
     align-items:center;
     gap: 2rem;
     text-align: center;
+
 }
 
 .home-content h1 { 
@@ -106,6 +107,7 @@ section {
     -webkit-text-fill-color: black;
     -webkit-text-stroke: .001px var(--second-color);
     font-family: 'Bungee Shade', sans-serif;
+    
 
 }
 
@@ -183,7 +185,7 @@ section {
 
 }
 .clan-members{
-    backdrop-filter: blur(4px) saturate(70%);
+    backdrop-filter: blur(10px) saturate(100%);
 
 }
 /* .clan-dLeaders{
@@ -211,9 +213,9 @@ section {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
 }
 
 .footer-text p{
     font-size: 1.6rem;
+    color: var(--text-color);
 }
